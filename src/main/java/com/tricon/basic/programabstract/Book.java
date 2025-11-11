@@ -13,6 +13,7 @@ public class Book extends LibraryItems implements Borrowable {
         try {
             if (isAvailable) {
                 System.out.println("the book is available");
+                isAvailable=false;
             } else {
                 throw new BookNotAvailableException("book is not available");
             }
