@@ -27,7 +27,7 @@ public class Book extends LibraryItems implements Borrowable {
     @Override
     public void returnItem(String userId) {
         try {
-            if (userId == "1") {
+            if (userId == "user1") {
                 System.out.println("the user is available ");
 
             }
