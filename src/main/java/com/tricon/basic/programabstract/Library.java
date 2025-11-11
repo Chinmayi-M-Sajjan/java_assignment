@@ -11,9 +11,9 @@ public class Library {
         return items.get(id);
     }
     public void displayAllAvailableItems(){
-        for(LibraryItems items1: items.values()){
-            if(items1.isAvailable){
-                items1.displayInfo();
+        for(LibraryItems item: items.values()){
+            if(item.isAvailable){
+                item.displayInfo();
             }
         }
     }
