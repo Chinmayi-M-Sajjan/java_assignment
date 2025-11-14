@@ -1,0 +1,3 @@
+Hello, this is a File I/O example in Java.
+We are writing and reading from a text file.
+End of file content.
